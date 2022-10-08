@@ -69,7 +69,7 @@ def gen_ladon(ts):
     return e("="+pre)
 
 if __name__ == "__main__":
-    videoid = 7150937196365663494
+    videoid = 7150937196365663494 #edit with the id from your video link
     ts = int(round(time.time()))
     print("tekkys x-gorgon:"+gen_gorgon(videoid,ts)) # generate gorgon with the video id (awemeid) parameter and current time
     print("tekkys x-khronos:"+str(ts))
